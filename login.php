@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                           WHERE username=? AND password=?");
 
 	//parameter binding 
-  $stmt->bind_param("ss", $username, $password);//username string dan password integer
+  $stmt->bind_param("si", $username, $password);//username string dan password integer
                             //harusnya "ss" agar username dan password string semua
                             //namun terpaksa agar bisa menuju ke admin.php, bagian password di ganti integer
                             //karena password yang digunakan berupa angka
