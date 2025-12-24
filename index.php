@@ -46,6 +46,9 @@ include "koneksi.php";
                         <a class="nav-link" href="login.php" target="_blank">Login</a>
                     </li>
                     <li class="nav-item">
+                        <a href="registrasi.php" class="nav-link text-danger">Daftar akun disini</a>
+                    </li>
+                    <li class="nav-item">
                         <button id="blackbutton" class="bg-black h2 text-white"><i class="bi bi-moon-stars-fill"></i></button>
                     </li>
                     <li class="nav-item">
